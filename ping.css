@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    background-color: #E5E5E3;
+}
+
+.navbar{
+    background-color: #FFD0BE;
+    box-shadow: #F4E5BD;
+    width: 100%;
+    min-height: 70%;
+}
+
+.navbar > h1.title{
+    background-color: white;
+    color: black;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+ul{
+    display: inline-block;
+    padding-right: 100px;
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+}
+
+li a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+li a:hover{
+    background-color: #4A8391;
+}
+
+li a:active{
+    background-color: #A1CEAB;
+}
+
+.Niyay{
+    padding-top: 10px;
+    text-align: center;
+    color: #E492C5;
+}
+
+h3{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+h4 a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+div.img_aon{
+    width: 50%;
+    height: 50%;
+    /* margin: auto;
+    display: block;
+    padding-right: 50%; */
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.book{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+div .di_name{
+    background-color: #E5E5E3;
+}
+
+.Name{
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
+    background-color: black;
+}
+
+
+.Ni a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 20px 30px;
+    background-color: #ffffff;
+}
+a img .img_01{
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+}
+
+p{
+    text-align: center;
+}
+
+article  {
+    margin-left: 20px;
+    margin-top: 10px;
+    display: inline-block;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+    width:20%;
+    min-height: 70px;
+    top: 0;
+    background-color: white;
+    margin-right: 100px;
+}
+
+article div.bk_img1 {
+    margin-top: 20px;
+    background-color: lightblue;
+    color: white;
+    height:30px;
+    text-align: center;
+}
+
+article div.bk_img{
+    text-align: center;
+}
+
+footer{
+    position: fixed;
+    left: 0px;
+    right: 8px;
+    bottom: 0px;
+    width: 100%;
+    background: lightgrey;
+    color: black;
+    text-align: center;
+}
